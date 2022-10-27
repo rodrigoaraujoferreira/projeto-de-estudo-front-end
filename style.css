@@ -1,0 +1,61 @@
+.header-container {
+    background-color: #01AFAD;
+    box-shadow: 1px 1px 5px black;
+}
+
+header {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo {
+    padding: 1.5em 0;
+}
+
+nav {
+    width: 40%;
+}
+
+/* LINKS */
+a:link {
+    text-decoration: none;  
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/* PRINCIPAL */
+.principal {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+
+    box-shadow: 1px 1px 5px black;
+}
+
+/* LADO <<< */
+.coluna-esquerda {
+    width: 55%;
+}
+
+.coluna-esquerda h1 {
+    font-size: 5em;
+}
+
+.coluna-esquerda p {
+    font-size: 2.5em;
+    margin: 1em 0;
+}
