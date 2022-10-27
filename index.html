@@ -131,6 +131,47 @@
                         </div>
                     </h3>
                 </div>
+
+                <!-- LADO >>> -->
+                <div class="atendimento-dir">
+
+                    <!-- FORMULARIO -->
+                    <form>
+                        <label for="NomeCompleto">Nome Completo</label>
+                        <input type="text" id="NomeCompleto" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required>
+
+                        <label for="wa">WhatsApp</label>
+                        <input type="number" id="wa" required>
+
+                        <fieldset>
+                            <legend>Como prefere o nosso contato?</legend>
+                            <label for="radio-email">
+                                <input type="radio" name="contato" value="email" id="radio-email">E-mail
+                            </label>
+                            <label for="radio-tel">
+                                <input type="radio" name="contato" value="tel" id="radio-tel">Telefone
+                            </label>
+                            <label for="radio-wa">
+                                <input type="radio" name="contato" value="whatsapp" id="radio-wa">WhatsApp
+                            </label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Qual horário prefere que seja feito contato?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+
+                        <input type="submit" name="contato" value="Solicitar Contato" class="botao">
+
+                    </form>
+                </div>
             </div>
 
         </section>
