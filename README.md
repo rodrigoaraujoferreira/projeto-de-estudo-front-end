@@ -1,3 +1,5 @@
 # new-site-rfweb
 
-Criando toda estrutura HTML
+1.Criando toda estrutura HTML OK
+
+2.Começando a aplicar CSS
