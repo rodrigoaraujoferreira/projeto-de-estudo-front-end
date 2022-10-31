@@ -27,4 +27,4 @@ Conforme o projeto for evoluindo irei adicionando uma nova branche.
 
 ## 🌐 Link 
 
-<a href="https://rfweb.com.br/app/new-site-rfweb/" target="_blank">Clique aqui para acessar a versão atual do projeto.</a>
+<a href="https://rfweb.com.br/new-site-rfweb/" target="_blank">Clique aqui para acessar a versão atual do projeto.</a>

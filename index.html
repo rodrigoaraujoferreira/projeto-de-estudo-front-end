@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <!-- META -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,203 @@
     <link rel="stylesheet" href="reset.css">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Desenvolvimento e Manutenção de Web Sites.</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- TITULO -->
+    <title>Estudos HTML e CSS.</title>
 </head>
 
 <body>
 
-    <header>
-        <nav>
+    <div class="header-container">
+        <header>
+            <!-- LOGO -->
+            <img class="logotipo" src="imgs/log-rfweb.webp" alt="Logotipo do web site rfweb.com.br">
 
-        </nav>
+            <!-- MENU -->
+            <nav>
+                <ul class="menu">
+                    <a href="#homelink">
+                        <li>Home</li>
+                    </a>
+                    <a href="#vantagenslink">
+                        <li>Vantagens</li>
+                    </a>
+                    <a href="#sobrenoslink">
+                        <li>Sobre Nós</li>
+                    </a>
+                    <a href="#contatolink">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+            </nav>
+    </div>
     </header>
+    </div>
 
     <main>
+        <!-- PRINCIPAL -->
+        <section class="principal-container" id="homelink">
+            <div class="principal">
+                <!-- LADO <<< -->
+                <div class="coluna-esquerda">
+                    <h1>Criação de
+                        <br>
+                        <strong>Web Sites</strong>
+                    </h1>
+                    <p>Invista em um <strong>site profissional<br>para a sua empresa.</strong></p>
+                    <a href="#contatolink">
+                        <button>
+                            VAMOS COMEÇAR SEU PROJETO HOJE? <img src="imgs/seta-esq-button.png">
+                        </button>
+                    </a>
+                </div>
+
+                <!-- LADO >>> -->
+                <div class="coluna-direita">
+                    <img src="imgs/app_development.webp" alt="vetor de programação.">
+                </div>
+            </div>
+        </section>
+
+        <!-- VANTAGENS -->
+        <section class="vantagens" id="vantagenslink">
+            <p class="titulo">Vantagens de ter um site para o seu negócio</p>
+            <div class="vantagens-container">
+                <div class="conteudo-vantagens-container">
+                    <img src="imgs/ser-encontrado-no-google.svg" alt="vetor ser encontrado no buscador do google">
+                    <h2>Ser encontrado no Google</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi illo nihil optio nesciunt
+                        esse dignissimos quisquam, molestias ipsa necessitatibus dolorum distinctio exercitationem
+                        error. Aliquid sapiente animi mollitia totam et?</p>
+                </div>
+                <div class="conteudo-vantagens-container">
+                    <img src="imgs/canal-de-vendas.svg" alt="vetor loja online">
+                    <h2>Um canal de vendas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae modi quis voluptatibus
+                        architecto ut delectus itaque nam numquam voluptas dolorem amet, ad perspiciatis doloribus saepe
+                        cum quas deleniti adipisci dolor!</p>
+                </div>
+                <div class="conteudo-vantagens-container">
+                    <img src="imgs/sua-empresa-online-24-horas.svg" alt="vetor site de sucesso">
+                    <h2>Exposição da marca 24h</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident commodi inventore ut deleniti
+                        ad, quidem expedita itaque consequuntur ex autem debitis laborum ratione! Officiis, aliquam
+                        similique quas harum voluptatum sunt!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESPECIALISTA -->
+        <section class="especialista" id="sobrenoslink">
+
+            <p class="titulo-b">Especialista na criação de web sites</p>
+
+            <div class="especialista-container">
+                <!-- LADO <<< -->
+                <div class="especialista-coluna-esq">
+                    <img src="imgs/especialista.webp" alt="vetor foguete decolando">
+                </div>
+
+                <!-- LADO >>> -->
+                <div class="especilista-coluna-dir">
+                    <p>
+                        <strong>Criação de web sites</strong>, seja um <strong>Site Institucional</strong> para seu
+                        negócio, <strong>Blog pessoal </strong>, uma <strong>Landing Page</strong> para lançamento de
+                        info produto ou <strong>Loja Virtual.</strong>
+                    </p>
+                    <br>
+                    <p>Criamos sites 100% gerenciável, onde você mesmo poderia editar todo conteúdo de modo simples e
+                        descomplicado, caso tenha qualquer dúvida pode contar com nossa equipe de suporte.
+                    </p>
+                    <br>
+                    <p>Como resultado, atraia mais clientes para o seu negócio com um site profissional sem precisar
+                        investir muito.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contato" id="contatolink">
+            <div class="contato-container">
+                <p class="titulo">Atendimento</p>
+                <div class="atendimento-container">
+                    <!-- LADO <<< -->
+                    <div class="atendimento-esq">
+                        <h2>Horário de atendimento</h2>
+                        <h3>
+                            Segunda a Sexta - 09h às 18h
+                            <br>
+                            Sábado - 09h às 13h
+                            <br>
+                            comercial@rfweb.com.br
+                            <br><br>
+                            <strong>Nosso endereço</strong>
+                            <div class="mapa">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d725.7660002696891!2d-46.64628450519487!3d-23.54575653448607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce584ece5657d1%3A0x30180476218bcb69!2sR.%20Bento%20Freitas%2C%20446%20-%20Vila%20Buarque%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001220-030!5e0!3m2!1spt-BR!2sbr!4v1666892214780!5m2!1spt-BR!2sbr"
+                                    width="85%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </h3>
+                    </div>
+
+                    <!-- LADO >>> -->
+                    <div class="atendimento-dir">
+
+                        <!-- FORMULARIO -->
+                        <!-- AINDA NÃO ESTUDEI COMO O FORMULARIO ENVIA OS DADOS-->
+                        <form>
+                            <label for="NomeCompleto">Nome Completo</label>
+                            <input type="text" id="NomeCompleto" required>
+
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" required>
+
+                            <label for="wa">WhatsApp</label>
+                            <input type="number" id="wa" required>
+
+                            <fieldset>
+                                <legend>Como prefere o nosso contato?</legend>
+                                <label for="radio-email">
+                                    <input type="radio" name="contato" value="email" id="radio-email">E-mail
+                                </label>
+                                <label for="radio-tel">
+                                    <input type="radio" name="contato" value="tel" id="radio-tel">Telefone
+                                </label>
+                                <label for="radio-wa">
+                                    <input type="radio" name="contato" value="whatsapp" id="radio-wa">WhatsApp
+                                </label>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Qual horário prefere que seja feito contato?</legend>
+                                <select>
+                                    <option>Manhã</option>
+                                    <option>Tarde</option>
+                                    <option>Noite</option>
+                                </select>
+                            </fieldset>
+
+                            <input type="submit" name="contato" value="Solicitar Contato" class="botao">
+
+                        </form>
+                    </div>
+                </div>
+
+        </section>
 
     </main>
 
     <footer>
-
+        <P>Copyright &copy; Rodrigo Ferreira - RF Web Sites</P>
     </footer>
-    
+
 </body>
 
 </html>
