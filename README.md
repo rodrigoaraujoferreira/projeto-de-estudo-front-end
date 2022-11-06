@@ -4,6 +4,10 @@
   Projeto para colocar em prática a aprendizagem baseada em estudos.
 </p>
 
+<p align="center">
+  <img src="./imgs/rfweb-print.png" alt="Imagem do projeto" width="85%"/>
+</p>
+
 <br>
 
 ## 🚀 Tecnologias
@@ -22,9 +26,5 @@ Esse projeto foi desenvolvido até o momento com as seguintes tecnologias:
 ## 💻 Projeto
 
 O web site rfweb e um projeto simples para aplicar os conceitos estudados até o momento.
-<br>
-Conforme o projeto for evoluindo irei adicionando uma nova branche.
 
 ## 🌐 Link 
-
-<a href="https://rodrigoaraujoferreira.github.io/projeto-de-estudo-front-end/" target="_blank">Clique aqui para acessar a versão atual do projeto.</a>
