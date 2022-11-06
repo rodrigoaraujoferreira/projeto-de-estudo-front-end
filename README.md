@@ -4,6 +4,10 @@
   Projeto para colocar em prática a aprendizagem baseada em estudos.
 </p>
 
+<p align="center">
+  <img src="./imgs/rfweb-print.png" alt="Imagem do projeto" width="85%"/>
+</p>
+
 <br>
 
 ## 🚀 Tecnologias
