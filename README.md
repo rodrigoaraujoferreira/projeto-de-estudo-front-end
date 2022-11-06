@@ -29,4 +29,4 @@ O web site rfweb e um projeto simples para aplicar os conceitos estudados até o
 
 ## 🌐 Link 
 
-<a href="https://rfweb.com.br/app/new-site-rfweb/" target="_blank">Clique aqui para acessar o projeto online.</a>
+<a href="https://rodrigoaraujoferreira.github.io/projeto-de-estudo-front-end/" target="_blank">Clique aqui para acessar o projeto online.</a>
