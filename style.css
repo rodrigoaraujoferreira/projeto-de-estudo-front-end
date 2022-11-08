@@ -221,6 +221,7 @@ main strong {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .atendimento-esq {
@@ -310,4 +311,186 @@ footer {
     text-align: center;
     color: #f2f2f2f2;
     padding: 1em 0;
+}
+
+/*  RESPONSIVIDADE */
+
+@media (max-width:600px) {
+
+    /* HEADER */
+    header {
+        width: auto;
+        padding: 0 1em;
+        display: flex;
+                
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .menu li {
+        padding: 0.5em;
+        font-size: 0.8em;
+
+    }
+
+    .logotipo {
+        width: 20%;
+    }
+
+
+    /*AJUSTANDO NA TELA */
+
+    .principal-container, .coluna-esquerda, .coluna-direita, .especialista, .contato, .especialista-coluna-esq, .especialista-coluna-dir {
+        width:auto;
+    }
+
+    .vantagens, .especialista, .especialista-container  {
+        padding: 0;
+    
+    }
+
+    .principal, .vantagens-container, .especialista-container, .atendimento-container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coluna-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .coluna-esquerda h1{
+        font-size: 3.8em;
+    }
+
+    .coluna-esquerda p {
+        font-size:1.2em;
+    }
+
+    .coluna-esquerda button {
+        margin: 1em 0;
+    }
+
+    .coluna-esquerda a {
+        font-size: 0.8em;
+    }
+
+    .coluna-direita {
+        text-align: center;
+        margin: 0;
+    }
+
+    .coluna-direita img {
+        width: 90%;
+        margin: 2em 0;
+    }
+
+    /* VANTAGENS */
+    .vantagens {
+        padding: 1.5em;
+    }
+
+    .vantagens-container{
+        align-items: center;
+    }
+
+    .vantagens > p {
+        font-size: 1.7em;
+        padding: 1.5em 0;
+    }
+
+    .conteudo-vantagens-container {
+        margin: 1em 0;
+    }
+
+    /* ESPECIALISTA */
+    .especialista {
+        padding: 1.5em;
+    }
+
+    .especialista > p {
+        font-size: 1.7em;
+        padding: 1.5em 0.9em;
+    }
+
+    .especialista-container {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .especialista-coluna-esq img {
+        width: 90%;
+        margin-bottom: 1em;
+    }
+
+    .especilista-coluna-dir p {
+        margin: 0.5em;
+    }
+
+    /* ATENDIMENTO */
+
+    .contato {
+        width: auto;
+    }
+
+    .contato-container {
+        width: auto;
+        margin: 0;
+        padding: 1.5em;
+        background-color: #EEF0F4;
+    }
+
+    .contato-container p {
+        width: auto;
+        font-size: 2.2em;
+        padding: 1.5em 0.9em;
+    }
+
+
+    .atendimento-esq {
+        margin: 0;
+        width: 80%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .atendimento-esq h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .atendimento-esq h3 {
+        font-size: 1.3em;
+    }
+
+    .atendimento-esq strong {
+        margin: 0 auto;
+    }
+
+    .atendimento-dir{
+        margin: 0;
+        padding: 0;
+    }
+
+    .mapa {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .mapa strong {
+        font-size: 1.5em;
+    }
+
+    .mapa iframe {
+        width: 100%;
+    }
+
+    .atendimento-dir {
+        padding: 1.5em;
+    }
 }
