@@ -4,8 +4,15 @@
   Projeto para colocar em prática a aprendizagem baseada em estudos.
 </p>
 
-<p align="center">
+
+## 💻
+<p>
   <img src="./imgs/rfweb-print.png" alt="Imagem do projeto" width="85%"/>
+</p>
+
+## 🤳
+<p>
+  <img src="./imgs/rf-web-mobile.png" alt="Imagem do projeto" width="50%"/>
 </p>
 
 <br>
